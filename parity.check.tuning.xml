@@ -3,7 +3,7 @@
 <Plugin>True</Plugin>
 <PluginURL>https://raw.githubusercontent.com/itimpi/parity.check.tuning/master/parity.check.tuning.plg</PluginURL>
 <PluginAuthor>Dave walker (itimpi)</PluginAuthor>
-<Beta>True</Beta>
+<Beta>False</Beta>
 <Category>Tools:System</Category>
 <Name>Parity Check Tuning</Name>
 <MinVer>6.7.0-rc4</MinVer> 
@@ -12,4 +12,8 @@ A simple plugin to allow a parity check to be split into increments that are run
 </Description>
 <Support>https://forums.unraid.net/topic/78394-plugin-parity-check-tuning/</Support>
 <Icon>https://github.com/itimpi/parity.check.tuning/raw/master/source/usr/local/emhttp/plugins/parity.check.tuning/parity.check.tuning.png</Icon>
+<iconFA>tools</ICon>
+<DonateText>Help keep me motivated!</DonateText>
+<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U2FVNHSETTNRG&source</DonateLink>
+<DonateImage>https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif</DonateImage>
 </Containers>
