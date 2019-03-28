@@ -14,6 +14,6 @@ A simple plugin to allow a parity check to be split into increments that are run
 <Icon>https://github.com/itimpi/parity.check.tuning/raw/master/source/usr/local/emhttp/plugins/parity.check.tuning/parity.check.tuning.png</Icon>
 <iconFA>tools</ICon>
 <DonateText>Help keep me motivated!</DonateText>
-<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U2FVNHSETTNRG&source</DonateLink>
+<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=U2FVNHSETTNRG&amp;source</DonateLink>
 <DonateImage>https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif</DonateImage>
 </Containers>
