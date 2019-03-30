@@ -7,11 +7,10 @@
 <Category>Tools:System</Category>
 <Name>Parity Check Tuning</Name>
 <MinVer>6.7.0-rc4</MinVer>
-<Description>A simple plugin to allow a parity check to be split into increments that are run on a pre-defined schedule across a number of days.  This allows parity checks that take a long time to complete to be run only at times when the Unraid server would normally be idle</Description>
+<Description>Fine-tune the execution of long-running array opperations such as Parity Check, Parity-Sync/Data Rebuid and Disk Clear so that they are automatically run in increments at convenient times rather than having to run to completion uninterrupted. Also allows for such operations to be automatically paused (and later resumed) if disk temperatures exceed specified thresholds.</Description>
 <Support>https://forums.unraid.net/topic/78394-plugin-parity-check-tuning/</Support>
 <Icon>https://github.com/itimpi/parity.check.tuning/raw/master/source/usr/local/emhttp/plugins/parity.check.tuning/parity.check.tuning.png</Icon>
-<IconFA>tools</IconFA>
 <DonateText>Help keep me motivated!</DonateText>
-<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=U2FVNHSETTNRG&amp;source</DonateLink>
-<DonateImage>https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif</DonateImage>
+<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=U2FVNHSETTNRG&amp;source=url</DonateLink>
+<DonateImage>https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif</DonateImage>
 </Containers>
