@@ -48,7 +48,7 @@ To administer the My Media For Alexa server use the WebUI.</Description>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/?</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/medialibrary</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -56,7 +56,7 @@ To administer the My Media For Alexa server use the WebUI.</Description>
   <Environment/>
   <Labels/>
   <Config Name="Data folder" Target="/datadir" Default="" Mode="rw" Description="The location for config settings and indexing information" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/MyMediaForAlexa</Config>
-  <Config Name="Media Library" Target="/medialibrary" Default="" Mode="rw" Description="The location of the media to be handled by My Media For Alexa" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/?</Config>
+  <Config Name="Media Library" Target="/medialibrary" Default="" Mode="rw" Description="The location of the media to be handled by My Media For Alexa" Type="Path" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Alexa port" Target="52050" Default="" Mode="tcp" Description="Port used to communicate with Alexa&#13;&#10;&amp;lt;p&amp;gt;MUST NOT BE CHANGED&amp;lt;/p&amp;gt;" Type="Port" Display="always" Required="false" Mask="false">52050</Config>
   <Config Name="Admin port" Target="52051" Default="" Mode="tcp" Description="Admin port used to manage My Media For Alexa&#13;&#10;&amp;lt;p&amp;gt;MUST NOT BE CHANGED&amp;lt;/p&amp;gt;" Type="Port" Display="always" Required="false" Mask="false">52051</Config>
 </Container>
